@@ -41,7 +41,7 @@ namespace Examples
             {
                 new PromptMessage
                 {
-                    Role = "assistant",
+                    Role = Role.Assistant,
                     Content = new Content
                     {
                         Type = "text",
@@ -86,7 +86,7 @@ namespace Examples
             {
                 new PromptMessage
                 {
-                    Role = "user",
+                    Role = Role.User,
                     Content = new Content
                     {
                         Type = "text",
@@ -95,7 +95,7 @@ namespace Examples
                 },
                 new PromptMessage
                 {
-                    Role = "assistant",
+                    Role = Role.Assistant,
                     Content = new Content
                     {
                         Type = "text",
